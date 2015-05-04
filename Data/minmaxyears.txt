@@ -1,0 +1,75 @@
+===========final consumption expenditure, etc. (% of gdp)===========
+(1990, 'tanzania'), (2011, 'togo')
+Number of years of data available: 21
+
+
+===========exports of goods and services (% of gdp)===========
+(1990, 'tanzania'), (2011, 'togo')
+Number of years of data available: 21
+
+
+===========general government final consumption expenditure (constant 2005 us$)===========
+(1993, 'congo, dem. rep.'), (2005, 'chad')
+Number of years of data available: 12
+
+
+===========population growth (annual %)===========
+(1961, 'seychelles'), (2013, 'seychelles')
+Number of years of data available: 52
+
+
+===========population, total===========
+(1960, 'seychelles'), (2013, 'seychelles')
+Number of years of data available: 53
+
+
+===========gross capital formation (% of gdp)===========
+(1990, 'tanzania'), (2011, 'togo')
+Number of years of data available: 21
+
+
+===========exports of goods and services (constant 2005 us$)===========
+(1990, 'tanzania'), (2005, 'chad')
+Number of years of data available: 15
+
+
+===========final consumption expenditure, etc. (constant 2005 us$)===========
+(1993, 'congo, dem. rep.'), (2005, 'chad')
+Number of years of data available: 12
+
+
+===========gdp growth (annual %)===========
+(1989, 'tanzania'), (2013, 'seychelles')
+Number of years of data available: 24
+
+
+===========net official development assistance and official aid received (constant 2012us$)===========
+(1993, 'south africa'), (2013, 'seychelles')
+Number of years of data available: 20
+
+
+===========gross capital formation (constant 2005 us$)===========
+(1993, 'congo, dem. rep.'), (2005, 'chad')
+Number of years of data available: 12
+
+
+===========gross national expenditure (constant 2005 us$)===========
+(1990, 'tanzania'), (2005, 'chad')
+Number of years of data available: 15
+
+
+===========foreign direct investment, net inflows (% of gdp)===========
+(1988, 'tanzania'), (2013, 'seychelles')
+Number of years of data available: 25
+
+
+===========gross national expenditure (% of gdp)===========
+(1990, 'tanzania'), (2011, 'togo')
+Number of years of data available: 21
+
+
+===========general government final consumption expenditure (% of gdp)===========
+(1990, 'tanzania'), (2007, 'gabon')
+Number of years of data available: 17
+
+

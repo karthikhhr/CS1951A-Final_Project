@@ -1,0 +1,8 @@
+Variables removed from analysis
+
+literacy rate, adult total (% of people ages 15 and above)
+gini index (world bank estimate)
+government expenditure on education, total (% of government expenditure)
+central government debt, total (% of gdp)
+government expenditure on education, total (% of gdp)
+gross fixed capital formation, private sector (% of gdp)
