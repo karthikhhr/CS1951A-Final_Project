@@ -1,0 +1,240 @@
+5.275872708
+===================Coefficients for seychelles===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[ -3.23340352e-04   1.56039044e-01  -5.26286299e-08   1.61536821e-01]
+
+
+===================Coefficients for lag2 seychelles===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[ -1.78999252e-04  -2.60654688e-01  -4.83550755e-08   2.08534815e-01]
+
+
+
+3.270736613
+===================Coefficients for uganda===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  2.53614386e-07  -4.77612973e-01   3.34452902e-09   5.72533592e-02]
+
+
+===================Coefficients for lag2 uganda===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[ -5.75287522e-07   1.74013249e-01   3.23152260e-09   7.64704214e-01]
+
+
+
+5.827030816
+===================Coefficients for botswana===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[ -1.01893005e-05  -1.54407271e-01  -8.39615344e-09   1.88139856e-01]
+
+
+===================Coefficients for lag2 botswana===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[ -4.60870255e-06  -2.64097852e-01   1.14875230e-08   1.91662263e-01]
+
+
+
+2.803807191
+===================Coefficients for senegal===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[ -6.98689110e-10  -5.83513733e-03  -1.83569315e-09   5.89314048e-01]
+
+
+===================Coefficients for lag2 senegal===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  1.57989613e-07   1.20404200e-02  -5.26747602e-09   4.71370222e-02]
+
+
+
+7.444166659
+===================Coefficients for mozambique===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  3.33928491e-07   6.90457620e-02  -2.34101584e-09  -8.29165383e-02]
+
+
+===================Coefficients for lag2 mozambique===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  2.87540898e-07   7.17788668e-02  -1.42915045e-09   2.85979266e-02]
+
+
+
+5.743139176
+===================Coefficients for kenya===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  1.78626888e-07   3.95315592e-01  -9.75455943e-10  -8.54207692e-01]
+
+
+===================Coefficients for lag2 kenya===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  1.47560439e-07   8.93691257e-03  -7.57120720e-11  -2.18504382e-01]
+
+
+
+2.414297692
+===================Coefficients for madagascar===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  6.86510179e-07  -3.85675481e-01   4.75333590e-09   2.58512954e-02]
+
+
+===================Coefficients for lag2 madagascar===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  6.34869707e-07   1.22669464e-01   2.99744332e-10  -8.19859183e-01]
+
+
+
+-4.840126662
+===================Coefficients for equatorial guinea===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[ -3.66971306e-05  -7.49467335e-03  -1.14463900e-07   7.54158829e-01]
+
+
+===================Coefficients for lag2 equatorial guinea===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[ -8.80130600e-05   1.05672323e-01  -3.00181273e-07   1.78323628e-01]
+
+
+
+4.684512428
+===================Coefficients for rwanda===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  3.55195669e-06  -4.46791620e+00   3.92200410e-08   8.66221742e+00]
+
+
+===================Coefficients for lag2 rwanda===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  7.14096795e-07  -9.68135295e-01   1.52154204e-08   1.94750052e+00]
+
+
+
+2.784760332
+===================Coefficients for swaziland===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[ -1.55561596e-05   3.33128106e-01   8.93949110e-09   1.74386632e-01]
+
+
+===================Coefficients for lag2 swaziland===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[ -1.60374953e-05   1.04278445e-01   2.94678827e-08   8.14357894e-03]
+
+
+
+5.124750827
+===================Coefficients for namibia===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  3.20817587e-06   1.17624102e-01  -7.35755453e-10  -3.25234214e-01]
+
+
+===================Coefficients for lag2 namibia===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  4.61827005e-06   2.02066489e-01  -8.23375162e-09  -4.87509827e-01]
+
+
+
+5.394416311
+===================Coefficients for nigeria===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  9.88596941e-08  -5.10546619e-01  -1.95310794e-10   1.96408720e-01]
+
+
+===================Coefficients for lag2 nigeria===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  4.42439614e-08  -6.22698328e-01  -2.46657289e-10  -6.77532106e-01]
+
+
+
+5.561688129
+===================Coefficients for cameroon===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  7.43462844e-07  -5.09457294e-01  -1.56206947e-09   5.33465992e-01]
+
+
+===================Coefficients for lag2 cameroon===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  7.42762730e-07  -7.25523476e-01  -1.96405612e-09   6.01667117e-01]
+
+
+
+5.640149161
+===================Coefficients for benin===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  7.07899771e-07  -4.56914066e-02  -4.20936893e-09   8.39392626e-01]
+
+
+===================Coefficients for lag2 benin===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[ -1.04068437e-06   5.98959916e-01   3.58848790e-09   1.26091157e-01]
+
+
+
+5.117622456
+===================Coefficients for togo===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  3.08695589e-07  -4.46065790e-01   3.55180978e-09   2.87029790e-01]
+
+
+===================Coefficients for lag2 togo===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  4.70812046e-07  -7.71773235e-01   1.13611935e-08   1.37831068e-01]
+
+
+
+6.715005029
+===================Coefficients for mauritania===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  1.60046964e-06   2.64251210e-01  -1.41868067e-08  -1.60405932e-01]
+
+
+===================Coefficients for lag2 mauritania===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  1.71350005e-06   7.99788396e-02   1.39284027e-08  -8.94086507e-03]
+
+
+
+6.647165888
+===================Coefficients for burkina faso===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  1.03643541e-06   2.77854445e-01  -8.55940944e-09  -6.12642580e-01]
+
+
+===================Coefficients for lag2 burkina faso===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  1.44865975e-07   2.23962843e-01   8.96481288e-11   1.60984631e+00]
+
+
+
+5.489400292
+===================Coefficients for lesotho===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  1.04257128e-06   7.12866234e-03   7.57918365e-09  -3.03942137e-02]
+
+
+===================Coefficients for lag2 lesotho===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[ -5.13963516e-06  -6.95549892e-02   1.20983443e-08   1.82731566e-02]
+
+
+
+3.200000008
+===================Coefficients for mauritius===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[ -1.56176344e-05  -8.92360125e-02  -9.35686909e-10   1.51082787e-01]
+
+
+===================Coefficients for lag2 mauritius===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[ -4.41198686e-06  -8.16652603e-03   8.35384551e-09  -4.94222823e-01]
+
+
+
+3.440705249
+===================Coefficients for congo, rep.===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  2.93863728e-06  -5.39955146e-03   4.29064176e-10  -3.96289577e-02]
+
+
+===================Coefficients for lag2 congo, rep.===================
+['population, total', 'gross capital formation (% of gdp)', 'net official development assistance and official aid received (constant 2012us$)', 'foreign direct investment, net inflows (% of gdp)']
+[  2.16260044e-06   5.63200886e-02  -3.05988279e-09   7.12760002e-02]
+
+
+
