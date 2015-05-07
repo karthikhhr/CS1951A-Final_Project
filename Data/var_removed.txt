@@ -6,3 +6,9 @@ government expenditure on education, total (% of government expenditure)
 central government debt, total (% of gdp)
 government expenditure on education, total (% of gdp)
 gross fixed capital formation, private sector (% of gdp)
+
+
+
+To get more data:
+ghana (exports + final consumption)
+burundi (final consumption + capital formation+ govt final consumption + gross national expenditure+)

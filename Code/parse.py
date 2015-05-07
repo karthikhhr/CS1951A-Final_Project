@@ -3,13 +3,19 @@ import csv
 from collections import defaultdict
 import re
 
+import matplotlib.pyplot as plot
+import numpy as numpy
+from sklearn import datasets, linear_model
+
+#aggregate data file
 all_data_file = open("../Data/AllSSAData/all_ssa_data.csv","r")
 
+###############################PARSING###############################
 allData = csv.reader(all_data_file)
 cleanAllData = []
 countryList = []
 varList = []
-yearList = [1960,1961,1962,1963,1964,1965,1966,1967,1968,1969,1970,1972,1973,1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014]
+yearList = range(1960, 2015)
 for line in allData:
 	cleanLine=[]
 	for l in line:
@@ -134,35 +140,35 @@ for c in countryList:
 # 		for x in values:
 # 			print x[0], x[1]
 
-pruned_all_data_file = open("../Data/pruned_all_data.txt","r")
-pruned_all_data = pruned_all_data_file.readlines()
-pruned_all_data_file.close()
-varMinDict = {}
-varMaxDict = {}
+# pruned_all_data_file = open("../Data/pruned_all_data.txt","r")
+# pruned_all_data = pruned_all_data_file.readlines()
+# pruned_all_data_file.close()
+# varMinDict = {}
+# varMaxDict = {}
 
 
-for l in range(len(pruned_all_data)):
-	line = pruned_all_data[l]
-	line = line.strip()
-	lineList = line.split(" ")
-	if line[0]=="=":
-		variable = re.sub('[=]','',line)
-		varMinDict[variable]=(float("-inf"),'dummy')
-		varMaxDict[variable] = (float("inf"),'dummy')
-	else:
-		if line[0]==":":
-			countryMin = re.sub('[::]','',line)
-			lineListMin =pruned_all_data[l+1].strip().split(" ")
-			if int(lineListMin[0])>varMinDict[variable][0] and not (countryMin=="congo, dem. rep." or countryMin=="tanzania" or countryMin=="south africa"):
-				varMinDict[variable] = (int(lineListMin[0]),countryMin)
-			if not pruned_all_data[l-1][0]=="=":
-				x=1
-				while not pruned_all_data[l-x][0]==":":
-					x+=1
-				countryMax = re.sub('[::]','',pruned_all_data[l-x].strip())
-				lineListMax = pruned_all_data[l-1].strip().split(" ")
-				if int(lineListMax[0])<varMaxDict[variable][0] and not (countryMax=="chad" or countryMax=="sudan" or countryMax=="gabon"):
-					varMaxDict[variable] = (int(lineListMax[0]),countryMax)		
+# for l in range(len(pruned_all_data)):
+# 	line = pruned_all_data[l]
+# 	line = line.strip()
+# 	lineList = line.split(" ")
+# 	if line[0]=="=":
+# 		variable = re.sub('[=]','',line)
+# 		varMinDict[variable]=(float("-inf"),'dummy')
+# 		varMaxDict[variable] = (float("inf"),'dummy')
+# 	else:
+# 		if line[0]==":":
+# 			countryMin = re.sub('[::]','',line)
+# 			lineListMin =pruned_all_data[l+1].strip().split(" ")
+# 			if int(lineListMin[0])>varMinDict[variable][0] and not (countryMin=="congo, dem. rep." or countryMin=="tanzania" or countryMin=="south africa"):
+# 				varMinDict[variable] = (int(lineListMin[0]),countryMin)
+# 			if not pruned_all_data[l-1][0]=="=":
+# 				x=1
+# 				while not pruned_all_data[l-x][0]==":":
+# 					x+=1
+# 				countryMax = re.sub('[::]','',pruned_all_data[l-x].strip())
+# 				lineListMax = pruned_all_data[l-1].strip().split(" ")
+# 				if int(lineListMax[0])<varMaxDict[variable][0] and not (countryMax=="chad" or countryMax=="sudan" or countryMax=="gabon"):
+# 					varMaxDict[variable] = (int(lineListMax[0]),countryMax)		
 mins = []
 maxs = []
 # for k in varMinDict:
@@ -192,9 +198,12 @@ valid_countries.remove("chad")
 # 		for x in values:
 # 			print x[0], x[1]
 
-countryYearVarValDict['uganda'][1986]["foreign direct investment, net inflows (% of gdp)"] = 0
-countryYearVarValDict['uganda'][1987]["foreign direct investment, net inflows (% of gdp)"] = 0
-countryYearVarValDict['togo'][2008]["general government final consumption expenditure (% of gdp)"] = 10.1
+#update year list after looking at valid years
+yearList = range(1986, 2014) 
+
+countryYearVarValDict['uganda'][1986]["foreign direct investment, net inflows (% of gdp)"] = countryYearVarValDict['uganda'][1985]["foreign direct investment, net inflows (% of gdp)"] + 1.0/3 * (countryYearVarValDict['uganda'][1988]["foreign direct investment, net inflows (% of gdp)"] - countryYearVarValDict['uganda'][1985]["foreign direct investment, net inflows (% of gdp)"]) 
+countryYearVarValDict['uganda'][1987]["foreign direct investment, net inflows (% of gdp)"] = countryYearVarValDict['uganda'][1985]["foreign direct investment, net inflows (% of gdp)"] + 2.0/3 * (countryYearVarValDict['uganda'][1988]["foreign direct investment, net inflows (% of gdp)"] - countryYearVarValDict['uganda'][1985]["foreign direct investment, net inflows (% of gdp)"]) 
+countryYearVarValDict['togo'][2008]["general government final consumption expenditure (% of gdp)"] = 1.0/2 * (countryYearVarValDict['togo'][2007]["general government final consumption expenditure (% of gdp)"] + countryYearVarValDict['togo'][2009]["general government final consumption expenditure (% of gdp)"])
 
 cleanCountryYearVarValDict = defaultdict(lambda:defaultdict(lambda: defaultdict(float)))
 
@@ -204,7 +213,7 @@ for v in varList:
 	for c in valid_countries:
 		# print "::" + c + "::"
 		values = []
-		for y in range(1986,2012):
+		for y in yearList:
 			if not countryYearVarValDict[c][y][v] == "NA":
 				cleanCountryYearVarValDict[c][y][v]= countryYearVarValDict[c][y][v]
 				# print y,countryYearVarValDict[c][y][v]
@@ -212,11 +221,87 @@ for v in varList:
 				# print "HOLE!"
 				pass
 
-for i in cleanCountryYearVarValDict["cameroon"][1986].keys():
-	print i
+varList = cleanCountryYearVarValDict["cameroon"][1986].keys() #get updated variable list
 
 # for y in yearList:
 # 	print str(countryYearVarValDict["uganda"][y]["gdp growth (annual %)"]) +", " + str(y)
+
+# # # # # # # # # # # # # # # # # # # # # # # # REGRESSION # # # # # # # # # # # # # # # # # # # # # # # # 
+
+# def regression(input,output)
+varList.remove("gdp growth (annual %)")
+independent_vars = [
+# 'final consumption expenditure, etc. (% of gdp)', 
+# 'exports of goods and services (% of gdp)', 
+# 'general government final consumption expenditure (constant 2005 us$)', 
+# 'population growth (annual %)', 
+'population, total', 
+'gross capital formation (% of gdp)', 
+# 'exports of goods and services (constant 2005 us$)', 
+# 'final consumption expenditure, etc. (constant 2005 us$)', 
+# 'gdp growth (annual %)', 
+'net official development assistance and official aid received (constant 2012us$)', 
+# 'gross capital formation (constant 2005 us$)', 
+# 'gross national expenditure (constant 2005 us$)', 
+'foreign direct investment, net inflows (% of gdp)', 
+# 'gross national expenditure (% of gdp)', 
+# 'general government final consumption expenditure (% of gdp)'
+]
+
+# for v in varList:
+# 	if "(% of gdp)" in v or "official development" in v:
+# 		independent_vars.append(v)
+all_vars = independent_vars + ["gdp growth (annual %)"]
+dataGDP = []
+for c in valid_countries:
+	tup = (c,)
+	for y in range(1986,2014):
+		tup += (cleanCountryYearVarValDict[c][y]["gdp growth (annual %)"],)
+	dataGDP.append(tup)
+
+with open('../Data/gdpGrowth.csv','w') as output:
+	csv_out = csv.writer(output)
+	csv_out.writerow(['country','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013'])
+	for row in dataGDP:
+		csv_out.writerow(row)
+
+for c in valid_countries:
+	independent_data = []
+	dependent_data = []
+	lag2_dependent_data = []
+	lag2_independent_data = []
+	for y in range(1987, 2013):	#one year lag
+		dependent_data.append(cleanCountryYearVarValDict[c][y]["gdp growth (annual %)"])
+	for y in range(1988, 2014):	#two year lag
+		lag2_dependent_data.append(cleanCountryYearVarValDict[c][y]["gdp growth (annual %)"])
+	print cleanCountryYearVarValDict[c][2013]["gdp growth (annual %)"]
+	for y in range(1986, 2012):
+		values = []
+		for v in independent_vars:
+			values.append(cleanCountryYearVarValDict[c][y][v])
+		independent_data.append(tuple(values))
+	for y in range(1986, 2012):
+		values = []
+		for v in independent_vars:
+			values.append(cleanCountryYearVarValDict[c][y][v])
+		lag2_independent_data.append(tuple(values))		
+	regr = linear_model.LinearRegression()
+	lag2_regr = linear_model.LinearRegression()
+
+	lag2_regr.fit(lag2_independent_data,lag2_dependent_data)
+
+	regr.fit(independent_data, dependent_data)
+	print "===================Coefficients for " + c + "==================="
+	print independent_vars
+	print regr.coef_
+	print "\n"
+
+	print "===================Coefficients for lag2 " + c + "==================="
+	print independent_vars
+	print lag2_regr.coef_
+	print "\n\n"
+
+
 
 
 
