@@ -39,6 +39,7 @@ li{
     padding: .5em 1em;
 	border-top-width: 15px;
     border-top-style: solid;
+    width: 5px;
 }
 .hidden{
 	display: none;

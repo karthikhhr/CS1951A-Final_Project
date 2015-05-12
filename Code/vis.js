@@ -12,41 +12,48 @@ var svg = d3.select("article")
 		width: w, 
 		height: h
 	})
-	
+
+colorRange= d3.scale.category20b().range().reverse();
+colorRange.splice(6,1);
+colorRange.splice(0,1);
+colorRange.splice(11,1);
+colorRange.splice(14,1);
+colorRange.splice(1,1);
+colorRange.splice(7,1);
+
 var color = d3.scale.quantize()
-    .range(['rgb(255,255,217)','rgb(237,248,177)','rgb(199,233,180)','rgb(127,205,187)','rgb(65,182,196)','rgb(29,145,192)','rgb(34,94,168)','rgb(37,52,148)'])
-    .domain([0.0, 55.00]); // starting at 0, because there are some regions I have no data on..
+    .range(colorRange)
+    .domain([-15.10, 38.00]); // starting at 0, because there are some regions I have no data on..
 
 legend = d3.select('#legend').append('ul');
 	    		
 	
-d3.json("africa.json", function(json){
+d3.json("../Data/africa.json", function(json){
 	d3.csv("../Data/gdpGrowth.csv",function(csv){
 	
 		draw = function(year){
 			
 			for(var j = 0; j < csv.length; j++){
-				console.log(j)
-				for(var i = 0; i < json['data'].geo.features.length; i++){
-						if(json['data'].geo.features[i].properties.name.toLowerCase() == csv[j].country){
-							console.log("yes")
-							json['data'].geo.features[i].properties.perCent = csv[j][year];
+				for(var i = 0; i < json.features.length; i++){
+						if(json.features[i].properties.name.toLowerCase() == csv[j].country){
+							json.features[i].properties.gdpGrowth = csv[j][year];
 							break;
-						}				
+						}
 					}
 				}
+
 		
 	
 			 map = svg.selectAll("path")
-				.data(json['data'].geo.features)
+				.data(json.features)
 				.enter()
 				.append("path")
 				.attr("d", path)
 	            .style({
 	            	"fill":function(d) {
-	               	  var value = d.properties.perCent;
-	                   		if (value) { return color(value); }
-	                        else { return "#ffffff"; }},
+	               	  var value = d.properties.gdpGrowth;
+               		  if (value) { return color(value); }
+                      else { return "#ffffff"; }},
 	                 "opacity":.8
 	            })
 	            .text(function(d){
@@ -60,13 +67,10 @@ d3.json("africa.json", function(json){
 							"left": coordinates[0]  + "px",
 							"top": coordinates[1] + "px"
 						}).classed("hidden",false)
-						.select("#perCent").append("text")
+						.select("#gdpGrowth").append("text")
 						.text(function(){
-							if(d.properties.perCent){
-								return d.properties.name + ", " + d.properties.perCent + "%";
-							}
-							else{
-								return d.properties.name + ", UN Data not available";
+							if(d.properties.gdpGrowth){
+								return d.properties.admin + ", GDP growth from " + String(year-1) + ": " + d.properties.gdpGrowth + "%";
 							}
 						})
 				})
@@ -82,7 +86,9 @@ d3.json("africa.json", function(json){
 	    	keys.enter().append('li').classed("legend",true)
 	    		.style({
 	    			"border-top-color":String,
-	    			"opacity": .8
+	    			"opacity": 1,
+	    			"width":'10px'
+
 	    		})
 	    		.text(function(d) {
 	        		var r = color.invertExtent(d);
