@@ -1,0 +1,260 @@
+===================Coefficients for seychelles===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  4.77333857e-01   1.25429455e-01   2.19092361e-01   6.37250381e-05
+  -3.98601554e-01  -1.40270713e-01]
+
+
+===================Coefficients for lag2 seychelles===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  3.73612826e-01   1.02810387e-01  -1.00183350e+00   6.42442530e-05
+  -8.48068534e-02  -9.91311890e-02]
+
+
+
+===================Coefficients for uganda===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  9.32178617e-02  -8.79935273e-02   1.26242557e+00   9.67499898e-08
+   1.05503961e-01   5.51725710e-01]
+
+
+===================Coefficients for lag2 uganda===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -6.66433523e-01  -5.55640074e-01   7.73422205e+00  -4.89316272e-07
+   9.94404891e-02   1.48980138e+00]
+
+
+
+===================Coefficients for botswana===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  4.83624596e-01   3.71694396e-01  -2.62353703e+01  -1.10323095e-04
+  -1.83726151e+00  -2.24464384e-01]
+
+
+===================Coefficients for lag2 botswana===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  5.29996219e-01   2.63678664e-01  -1.68469336e+01  -6.89701214e-05
+  -3.66667483e-01  -1.91612491e-02]
+
+
+
+===================Coefficients for senegal===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  6.69891628e-02   1.88908378e-01  -4.90341821e+00   2.61019589e-07
+   1.33660792e-01   1.77851474e-01]
+
+
+===================Coefficients for lag2 senegal===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  1.90509185e-02  -5.69493679e-02  -2.70852505e+00  -2.89916531e-07
+  -2.36187402e-01  -7.89722432e-02]
+
+
+
+===================Coefficients for mozambique===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -3.88988050e-01  -1.65700828e-01  -1.89625026e-01   2.91011258e-07
+   4.85669460e-02  -1.38923521e-01]
+
+
+===================Coefficients for lag2 mozambique===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -5.64368634e-02  -2.80372945e-02   1.16905390e+00  -3.28608774e-07
+  -7.17016567e-02   8.79632826e-02]
+
+
+
+===================Coefficients for kenya===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  5.79463493e-02   7.71134137e-02   9.01587201e+00   4.13560068e-07
+  -3.08730860e-01  -9.42462821e-01]
+
+
+===================Coefficients for lag2 kenya===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  2.10453351e-01   1.69654478e-01   1.42074343e+01   5.10077688e-07
+  -7.06443423e-01   1.19648591e-01]
+
+
+
+===================Coefficients for madagascar===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  4.78022473e-01  -5.78202005e-02  -1.84336719e+00   8.79981526e-07
+   1.22793808e-01  -6.48540857e-01]
+
+
+===================Coefficients for lag2 madagascar===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -2.24503996e-01  -3.99200928e-01  -3.22336901e+00   1.27095602e-06
+   1.21237636e-01  -8.08539418e-01]
+
+
+
+===================Coefficients for equatorial guinea===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -2.06776077e-02   3.35825221e-02  -5.17730434e+00  -8.74480408e-05
+  -2.37751128e-01   7.31024220e-01]
+
+
+===================Coefficients for lag2 equatorial guinea===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -2.10103518e-01  -6.07736109e-01  -4.00336036e+01  -4.16869542e-04
+  -1.61732373e+00   2.67003167e-01]
+
+
+
+===================Coefficients for rwanda===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  2.14749836e-01   1.19206119e+00   1.67279966e+00   2.89813599e-06
+   4.14358881e-01  -3.27889379e+00]
+
+
+===================Coefficients for lag2 rwanda===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  4.58795968e-02   6.27301031e-02   7.60463681e-01   1.47466117e-06
+   1.99864842e-01   2.46111925e-01]
+
+
+
+===================Coefficients for swaziland===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -2.98898863e-01  -3.26501845e-03   3.02942755e+00  -1.40078971e-06
+  -5.57455153e-01   6.75285827e-02]
+
+
+===================Coefficients for lag2 swaziland===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -1.79518551e-01   2.33411006e-02   1.53290659e+00   2.16404475e-06
+   7.94867162e-01  -4.79002078e-02]
+
+
+
+===================Coefficients for namibia===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -4.28207695e-02  -5.24967723e-04  -1.22749680e+00  -1.56311640e-07
+   2.52897156e-01  -2.54292024e-01]
+
+
+===================Coefficients for lag2 namibia===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -2.45136074e-01   1.54567435e-01   8.69831798e-01   9.85864273e-06
+   1.43746111e-01  -6.94693280e-01]
+
+
+
+===================Coefficients for nigeria===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  3.07524486e-01   5.48039687e-01   3.00102291e+01  -1.10502124e-08
+  -5.80776026e-02   2.16397713e-01]
+
+
+===================Coefficients for lag2 nigeria===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  1.19030751e-01  -1.16627002e-01  -1.36066297e+01   6.35590244e-08
+   8.85133282e-02  -6.99103663e-01]
+
+
+
+===================Coefficients for cameroon===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  1.69255974e-01   5.90039117e-02  -3.85281875e+01  -1.30004141e-06
+  -1.71633768e-01  -7.51276462e-02]
+
+
+===================Coefficients for lag2 cameroon===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  1.14209695e+00   2.45089944e-01  -3.92395252e+01  -2.04243811e-06
+  -1.56456329e-01   1.06121548e-01]
+
+
+
+===================Coefficients for benin===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -9.47562438e-02   2.19560474e-01  -1.53082103e+00   3.96296327e-07
+   3.25821038e-01   4.56945209e-01]
+
+
+===================Coefficients for lag2 benin===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -1.36143810e-01   1.11294068e-02  -3.96901995e-01  -1.82136109e-07
+   1.20040040e-01  -1.31978171e-01]
+
+
+
+===================Coefficients for togo===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -5.76518217e-01   3.50027982e-01  -2.50463092e+00   2.59440801e-06
+  -3.60652329e-01  -1.32152100e+00]
+
+
+===================Coefficients for lag2 togo===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  2.13571897e-01  -1.71683442e-01  -1.43792154e+00   6.21597075e-07
+   1.71704219e-01  -8.06946686e-02]
+
+
+
+===================Coefficients for mauritania===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -1.37866885e-01  -5.37569050e-02  -2.59631259e+00  -1.99165886e-06
+  -1.44146978e-01   1.39603591e-01]
+
+
+===================Coefficients for lag2 mauritania===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -6.35652851e-02  -1.26166598e-01  -2.96602990e+00   3.87813508e-06
+   2.26614878e-01   3.30489349e-02]
+
+
+
+===================Coefficients for burkina faso===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -4.87488232e-02   7.44163740e-01   4.82076135e+01  -2.33350674e-06
+  -1.31042124e-01  -1.34246003e+00]
+
+
+===================Coefficients for lag2 burkina faso===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -2.97660628e-01  -2.80675508e-01  -2.22649541e+00   2.99720728e-07
+  -2.28686593e-03   1.71468775e+00]
+
+
+
+===================Coefficients for lesotho===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -4.99056685e-02  -1.40568191e-01  -4.99958111e+00   4.28789013e-06
+   1.67040724e-01  -6.08979971e-02]
+
+
+===================Coefficients for lag2 lesotho===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  6.38499480e-02   1.63947926e-02   1.73463779e+00   1.05620734e-05
+   1.41286835e-01  -1.02601678e-02]
+
+
+
+===================Coefficients for mauritius===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  8.60696150e-02   2.42025643e-02   2.03374171e+00  -3.11149056e-06
+   5.61599041e-01  -1.82897608e-02]
+
+
+===================Coefficients for lag2 mauritius===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  2.27412812e-01   1.46120397e-01  -1.64812064e+00  -1.86963709e-05
+  -3.05929074e-01  -4.86074403e-01]
+
+
+
+===================Coefficients for congo, rep.===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[ -1.73004677e-02  -1.62459380e-03   2.30256123e+00   2.88463956e-06
+   3.51368613e-02  -6.17997441e-02]
+
+
+===================Coefficients for lag2 congo, rep.===================
+['final consumption expenditure, etc. (% of gdp)', 'exports of goods and services (% of gdp)', 'population growth (annual %)', 'population, total', 'net official development assistance and official aid received (% of gdp)', 'foreign direct investment, net inflows (% of gdp)']
+[  9.00157047e-02   9.78735164e-02   1.63810562e+00   3.43682325e-07
+  -1.83946979e-01   7.18867415e-02]
+
+
+
