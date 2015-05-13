@@ -23,7 +23,7 @@ colorRange.splice(7,1);
 
 var color = d3.scale.quantize()
     .range(colorRange)
-    .domain([-15.10, 38.00]); // starting at 0, because there are some regions I have no data on..
+    .domain([-15.10, 38.00]); 
 
 legend = d3.select('#legend').append('ul');
 	    		
@@ -92,7 +92,7 @@ d3.json("../Data/africa.json", function(json){
 	    		})
 	    		.text(function(d) {
 	        		var r = color.invertExtent(d);
-	        		return Math.ceil(r[0]) +" - " + Math.floor(r[1]) ; // give the approximate value
+	        		return Math.ceil(r[0]) +" - " + Math.floor(r[1]) ; 
 	    		});
 			
 		}
